@@ -51,3 +51,5 @@ sudo pacman -Syu vlc
 sudo pacman -Syu gimp
 
 sudo pacman -Syu tlp
+
+sudo pacman -Syu alacritty
