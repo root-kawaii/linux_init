@@ -8,6 +8,8 @@ sudo pacman -Syu gdm
 
 sudo pacman -Syu visual-studio
 
+## Install Yay
+
 sudo pacman -S --needed base-devel git
 
 sudo git clone https://aur.archlinux.org/yay.git
@@ -17,6 +19,8 @@ cd yay
 makepkg -si
 
 cd ..
+
+## End Yay
 
 yay -S visual-studio-code-bin
 
@@ -32,9 +36,12 @@ sudo sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/ins
 
 sudo pacman -S python-pip
 
-sudo pip3 install pywal
+sudo pacman -Syu discord
 
-# Define the wallpaper path
-wallpaper="/home/root-kawaii/Pictures/14.png"
+yay -S firefox-beta-bin
 
-wal -i $wallpaper
+sudo pacman -Syu vlc
+
+sudo pacman -Syu gimp
+
+sudo pacman -Syu tlp
