@@ -4,7 +4,13 @@ sudo pacman -Syu
 
 sudo pacman -Syu network-manager
 
+sudo systemctl enable NetworkManager
+
 sudo pacman -Syu gdm
+
+sudo pacman -Syu gnome
+
+sudo systemctl enable gdm
 
 sudo pacman -Syu visual-studio
 
